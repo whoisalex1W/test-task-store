@@ -7,8 +7,6 @@
 //     }
 // }
 
-// changeMan();
-
 function manHover(element) {
     element.setAttribute("src", "/img/man_filled.png");
     console.log("hover");
