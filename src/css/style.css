@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.men-yellow {
+    position: absolute;
+    left: calc(22%);
+    top: calc(35%);
+}
+
+.men-green {
+    position: absolute;
+    left: calc(52%);
+    top: calc(35%);
+}
+
+.men-blue {
+    position: absolute;
+    left: calc(68%);
+    top: calc(45%);
+}
+
+.men-orange {
+    position: absolute;
+    left: calc(76%);
+    top: calc(72%);
+}
+
+.men-red {
+    position: absolute;
+    left: calc(32%);
+    top: calc(70%);
+}
+
+.men img:not(:last-child) {
+    margin-right: 10px;
+}
+
+.man-empty {
+    height: 80px;
+}
+
+.man-empty-medium {
+    height: 60px;
+}
+
+.man-empty-small {
+    height: 40px;
+}
