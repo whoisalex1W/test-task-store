@@ -13,26 +13,31 @@
     width: 90%;
 }
 
-.men-yellow {
+.hide {
+    display: none;
+}
+
+/* Men start */
+.men > div {
     position: absolute;
+}
+
+.men-yellow {
     left: calc(22%);
     top: calc(35%);
 }
 
 .men-green {
-    position: absolute;
     left: calc(52%);
     top: calc(35%);
 }
 
 .men-blue {
-    position: absolute;
     left: calc(68%);
     top: calc(45%);
 }
 
 .men-orange {
-    position: absolute;
     left: calc(76%);
     top: calc(72%);
 }
@@ -42,19 +47,63 @@
     left: calc(32%);
     top: calc(70%);
 }
+/* Men end */
 
-.men img:not(:last-child) {
-    margin-right: 10px;
+/* Man start */
+.man {
+    height: 100px;
+    background: url("/src/img/man_empty.png") no-repeat bottom;
+    background-size: contain;
+    display: inline-block;
 }
 
-.man-empty {
-    height: 80px;
+.men-small {
+    width: 15px;
 }
 
-.man-empty-medium {
-    height: 60px;
+.men-medium {
+    width: 25px;
 }
 
-.man-empty-small {
-    height: 40px;
+.men-large {
+    width: 35px;
 }
+
+.men-small:hover,
+.men-medium:hover,
+.men-large:hover {
+    background: url("/src/img/man_filled.png") no-repeat bottom;
+    background-size: contain;
+}
+
+/* Man end */
+
+/* Technique yellow start */
+
+.technique-phone {
+    background: url("/src/img/large.png") no-repeat bottom;
+    top: 25%;
+    left: -50%;
+    width: 50px;
+}
+
+.technique-tablet {
+    background: url("/src/img/medium.png") no-repeat bottom;
+    top: 45%;
+    left: 10%;
+    width: 50px;
+}
+
+.technique-laptop {
+    background: url("/src/img/small.png") no-repeat bottom;
+    top: 25%;
+    left: 80%;
+    width: 50px;
+}
+
+.technique > div {
+    height: 50px;
+    background-size: contain;
+    position: absolute;
+}
+/* Technique yellow end */
